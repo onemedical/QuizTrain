@@ -22,6 +22,11 @@
 
 /* Begin PBXBuildFile section */
 		390B6DDC28B8159C00EEED63 /* QuizTrain.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* QuizTrain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0E0983828E215C8000432DC /* BulkCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E0983728E215C8000432DC /* BulkCases.swift */; };
+		E0E0983A28E215EC000432DC /* BulkSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E0983928E215EC000432DC /* BulkSections.swift */; };
+		E0E0983C28E2160C000432DC /* BulkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E0983B28E2160C000432DC /* BulkTests.swift */; };
+		E0E0983E28E21640000432DC /* QuizTrainData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E0983D28E21640000432DC /* QuizTrainData.swift */; };
+		E0E0984028E2167D000432DC /* Links.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E0983F28E2167D000432DC /* Links.swift */; };
 		OBJ_251 /* AddRequestJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* AddRequestJSON.swift */; };
 		OBJ_252 /* AddRequestJSONKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* AddRequestJSONKeys.swift */; };
 		OBJ_253 /* CustomFieldsContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* CustomFieldsContainer.swift */; };
@@ -221,6 +226,11 @@
 
 /* Begin PBXFileReference section */
 		D088A3EA2681ACA7009FDB2A /* TestCredentials.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TestCredentials.json; sourceTree = "<group>"; };
+		E0E0983728E215C8000432DC /* BulkCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulkCases.swift; sourceTree = "<group>"; };
+		E0E0983928E215EC000432DC /* BulkSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulkSections.swift; sourceTree = "<group>"; };
+		E0E0983B28E2160C000432DC /* BulkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulkTests.swift; sourceTree = "<group>"; };
+		E0E0983D28E21640000432DC /* QuizTrainData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizTrainData.swift; sourceTree = "<group>"; };
+		E0E0983F28E2167D000432DC /* Links.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Links.swift; sourceTree = "<group>"; };
 		OBJ_10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		OBJ_100 /* NewCaseFieldConfigOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCaseFieldConfigOptions.swift; sourceTree = "<group>"; };
 		OBJ_101 /* NewCaseFieldData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCaseFieldData.swift; sourceTree = "<group>"; };
@@ -882,6 +892,10 @@
 				OBJ_68 /* Test.swift */,
 				OBJ_69 /* Types */,
 				OBJ_72 /* User.swift */,
+				E0E0983728E215C8000432DC /* BulkCases.swift */,
+				E0E0983928E215EC000432DC /* BulkSections.swift */,
+				E0E0983B28E2160C000432DC /* BulkTests.swift */,
+				E0E0983D28E21640000432DC /* QuizTrainData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -915,6 +929,7 @@
 			children = (
 				OBJ_70 /* CustomFieldType.swift */,
 				OBJ_71 /* Project.SuiteMode.swift */,
+				E0E0983F28E2167D000432DC /* Links.swift */,
 			);
 			path = Types;
 			sourceTree = "<group>";
@@ -1140,6 +1155,7 @@
 			buildActionMask = 0;
 			files = (
 				OBJ_251 /* AddRequestJSON.swift in Sources */,
+				E0E0983A28E215EC000432DC /* BulkSections.swift in Sources */,
 				OBJ_252 /* AddRequestJSONKeys.swift in Sources */,
 				OBJ_253 /* CustomFieldsContainer.swift in Sources */,
 				OBJ_254 /* ErrorContainer.swift in Sources */,
@@ -1181,6 +1197,7 @@
 				OBJ_290 /* Status.swift in Sources */,
 				OBJ_291 /* Suite.swift in Sources */,
 				OBJ_292 /* Template.swift in Sources */,
+				E0E0983E28E21640000432DC /* QuizTrainData.swift in Sources */,
 				OBJ_293 /* Test.swift in Sources */,
 				OBJ_294 /* CustomFieldType.swift in Sources */,
 				OBJ_295 /* Project.SuiteMode.swift in Sources */,
@@ -1209,8 +1226,11 @@
 				OBJ_318 /* NewCaseFieldType.swift in Sources */,
 				OBJ_319 /* NewCaseResults.Result.swift in Sources */,
 				OBJ_320 /* NewCaseResults.swift in Sources */,
+				E0E0983C28E2160C000432DC /* BulkTests.swift in Sources */,
+				E0E0984028E2167D000432DC /* Links.swift in Sources */,
 				OBJ_321 /* NewConfiguration.swift in Sources */,
 				OBJ_322 /* NewConfigurationGroup.swift in Sources */,
+				E0E0983828E215C8000432DC /* BulkCases.swift in Sources */,
 				OBJ_323 /* NewMilestone.swift in Sources */,
 				OBJ_324 /* NewPlan.Entry.Run.swift in Sources */,
 				OBJ_325 /* NewPlan.Entry.swift in Sources */,
