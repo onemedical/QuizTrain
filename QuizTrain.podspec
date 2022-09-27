@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/nsriva/QuizTrain.git", :tag => spec.version }
 
-  spec.source_files  = "QuizTrain", "QuizTrain/**/*.{swift}"
-  spec.exclude_files = "QuizTrain/Exclude"
+  spec.source_files  = "Sources/QuizTrain", "Sources/QuizTrain/**/*.{swift}"
+  spec.exclude_files = "Sources/QuizTrain/Exclude"
 
 end
