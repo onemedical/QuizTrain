@@ -4,7 +4,7 @@ import Foundation
  Asynchronous subclass of Operation providing state tracking with KVO. Subclass
  this class to implement custom asynchronous operations.
  */
-class AsyncOperation: Operation {
+class AsyncOperation: Operation, @unchecked Sendable {
 
     enum State: String {
         case ready = "isReady"

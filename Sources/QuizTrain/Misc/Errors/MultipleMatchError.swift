@@ -10,7 +10,7 @@ extension MultipleMatchError: CustomDebugStringConvertible {
         switch self {
         case .noMatchesFound:
             description += ".noMatchesFound:\n\n\(debugDetails)\n"
-        case .partialMatchesFound(_):
+        case .partialMatchesFound:
             description += ".partialMatchesFound:\n\n\(debugDetails)\n"
         }
         return description
@@ -25,7 +25,7 @@ extension MultipleMatchError: DebugDetails {
         switch self {
         case .noMatchesFound:
             details = "Zero matches were found."
-        case .partialMatchesFound(let matches):
+        case .partialMatchesFound(let matches, _):
             details = "\(matches)"
         }
         return details

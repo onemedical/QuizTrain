@@ -138,9 +138,6 @@ final public class API: NSObject, URLSessionDelegate {
         request.httpMethod = httpMethod.rawValue
         request.httpBody = data
         let session = URLSession(configuration: .default, delegate: self, delegateQueue: nil)
-        if !self.skipSSL {
-            let session = URLSession(configuration: .`default`)
-        }
         let task = session.dataTask(with: request) { (data, response, error) in
 
             var outcome: RequestOutcome
