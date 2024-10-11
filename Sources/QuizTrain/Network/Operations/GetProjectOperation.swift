@@ -1,6 +1,6 @@
 import Foundation
 
-class GetProjectOperation: AsyncOperation {
+class GetProjectOperation: AsyncOperation, @unchecked Sendable {
 
     // MARK: Properties
 

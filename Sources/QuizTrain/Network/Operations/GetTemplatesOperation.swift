@@ -1,6 +1,6 @@
 import Foundation
 
-class GetTemplatesOperation: AsyncOperation {
+class GetTemplatesOperation: AsyncOperation, @unchecked Sendable {
 
     // MARK: Properties
 

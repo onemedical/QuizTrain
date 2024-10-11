@@ -1,6 +1,6 @@
 import Foundation
 
-class GetConfigurationGroupsOperation: AsyncOperation {
+class GetConfigurationGroupsOperation: AsyncOperation, @unchecked Sendable {
 
     // MARK: Properties
 

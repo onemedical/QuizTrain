@@ -5,6 +5,8 @@
 //  Created by Neha Srivastava on 9/26/22.
 //
 
+import Foundation
+
 /// Data structure that contains the whole data from a QuizTrain project. It can serialize and write/read data from file all at once
 public struct QuizTrainData {
     public let project: QuizTrain.Project
